@@ -1,7 +1,7 @@
 # AI Taxonomies
 
 ### AI Capabilities
-
+```html
 <!DOCTYPE html>
 <head>
   <meta charset="utf-8">
@@ -2216,12 +2216,3 @@ svg
 
 d3_save_svg.embedRasterImages(svg.node());
  ```
-
-### Contributing
-`npm install` to get the development dependencies, test and build.
-
-Testing is via [Tape](https://github.com/substack/tape) and [jsdom](https://github.com/tmpvar/jsdom). Right now the tests are pretty rudimentary. Also `index.html` serves as a good check on whether things are working.
-
-Development is done using the [git-flow](http://nvie.com/posts/a-successful-git-branching-model/) workflow. Please merge changes into the `develop` branch.
-
-See [CONTRIBUTING.md](/CONTRIBUTING.md) for additional information.
