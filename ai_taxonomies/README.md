@@ -1,7 +1,7 @@
 # AI Taxonomies
 
 ### AI Capabilities
-```html
+
 <!DOCTYPE html>
 <head>
   <meta charset="utf-8">
@@ -2198,21 +2198,3 @@
 
 
 ### AI Design Patterns
-
-
-
-#### embedRasterImages(svgElement)
-A convenience function for converting all referenced raster images in an SVG element to base64 data via data URI, so that it is embedded in the SVG. This ensures that the downloaded image will contain the raster image. Probably should be updated to just directly convert a referenced link to data URI instead of doing it in two separate steps.
-
-```javascript
-svg
-  .append('g')
-   .append('image')
-      .attr('xlink:href', 'assets/test.png')
-      .attr("width", 100)
-      .attr("height", 100)
-      .attr("x", (width / 2)  - 50)
-      .attr("y", (height / 6) * 5);
-
-d3_save_svg.embedRasterImages(svg.node());
- ```
